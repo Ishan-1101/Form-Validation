@@ -22,3 +22,29 @@ form {
   display: flex;
   justify-content: center;
 }
+
+span {
+  color: crimson;
+}
+
+button {
+  background-color: #4caf50; /* Set background color */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+  padding: 10px 20px; /* Add padding */
+  text-align: center; /* Center align text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Set display to inline-block */
+  font-size: 16px; /* Set font size */
+  margin: 4px 2px; /* Add margin */
+  cursor: pointer; /* Add cursor on hover */
+  border-radius: 8px; /* Add rounded corners */
+}
+button:hover {
+  background-color: #3e8e41;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #999;
+  transform: translateY(4px);
+}
